@@ -1,0 +1,158 @@
+{
+    "general": {
+        "lstr": "通用搜索"
+    },
+    "f_google": {
+        "fav": "google"
+    },
+    "f_baidu": {
+        "fav": "baidu"
+    },
+    "chinaso": {
+        "dname": "中国搜索",
+        "addr": "https://www.chinaso.com",
+        "kw_key": "q",
+        "btns": {
+            "all": {
+                "label": "新闻",
+                "action": "https://www.chinaso.com/newssearch/all/allResults"
+            },
+            "social": {
+                "label": "社科",
+                "action": "https://www.chinaso.com/newssearch/social/socialResults"
+            },
+            "image": {
+                "label": "图片",
+                "action": "https://www.chinaso.com/newssearch/image"
+            },
+            "video": {
+                "label": "视频",
+                "action": "https://www.chinaso.com/newssearch/video"
+            },
+            "story": {
+                "label": "好故事",
+                "action": "https://www.chinaso.com/newssearch/story/storyResults"
+            },
+            "china_story": {
+                "label": "China Story",
+                "action": "https://www.chinaso.com/newssearch/chinaStory/chinaStorytoryResults"
+            }
+        }
+    },
+    "video": {
+        "lstr": "影音视听"
+    },
+    "douban": {
+        "dname": "豆瓣",
+        "addr": "https://search.douban.com",
+        "kw_key": "search_text",
+        "btns": {
+            "all": {
+                "label": "全部",
+                "kw_key": "q",
+                "action": "https://www.douban.com/search"
+            },
+            "movie": {
+                "label": "电影",
+                "action": "https://search.douban.com/movie/subject_search"
+            },
+            "book": {
+                "label": "读书",
+                "action": "https://search.douban.com/book/subject_search"
+            },
+            "music": {
+                "label": "音乐",
+                "action": "https://search.douban.com/music/subject_search"
+            },
+            "location": {
+                "label": "同城",
+                "action": "https://search.douban.com/location/subject_search"
+            }
+        }
+    },
+    "imdb": {
+        "dname": "IMDb",
+        "full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
+    },
+    "knownledge": {
+        "lstr": "知识问答"
+    },
+    "zhihu": {
+        "dname": "知乎",
+        "addr": "https://www.zhihu.com",
+        "action": "https://www.zhihu.com/search",
+        "kw_key": "q",
+        "btns": {
+            "content": {
+                "label": "综合",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "content"
+                    }
+                ]
+            },
+            "people": {
+                "label": "用户",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "people"
+                    }
+                ]
+            },
+            "topic": {
+                "label": "话题",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "topic"
+                    }
+                ]
+            },
+            "zvideo": {
+                "label": "视频",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "zvideo"
+                    }
+                ]
+            },
+            "column": {
+                "label": "专栏",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "column"
+                    }
+                ]
+            },
+            "km_general": {
+                "label": "盐选内容",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "km_general"
+                    }
+                ]
+            },
+            "publication": {
+                "label": "电子书",
+                "params": [
+                    {
+                        "key": "type",
+                        "val": "publication"
+                    }
+                ]
+            }
+        }
+    },
+    "pubmed": {
+        "dname": "PubMed",
+        "full_url": "https://pubmed.ncbi.nlm.nih.gov/?term={0}"
+    },
+    "f_9406": {
+        "fav": "github"
+    }
+}
