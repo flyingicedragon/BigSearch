@@ -74,6 +74,10 @@
         "dname": "IMDb",
         "full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
     },
+    "greatposterwall": {
+        "dname": "GreatPosterWall",
+        "full_url": "https://greatposterwall.com/torrents.php?searchstr={0}"
+    },
     "knownledge": {
         "lstr": "知识问答"
     },
