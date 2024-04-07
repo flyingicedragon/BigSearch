@@ -156,6 +156,15 @@
         "dname": "PubMed",
         "full_url": "https://pubmed.ncbi.nlm.nih.gov/?term={0}"
     },
+    "webofscience": {
+        "dname": "Web of Science",
+        "addr": "https://webofscience.clarivate.cn",
+        "action": "https://webofscience.clarivate.cn/wos/alldb/advanced-search",
+        "ajax": [
+            2000,
+            "#advancedSearchInputArea"
+        ]
+    },
     "f_9406": {
         "fav": "github"
     }
