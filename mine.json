@@ -35,7 +35,7 @@
             },
             "china_story": {
                 "label": "China Story",
-                "action": "https://www.chinaso.com/newssearch/chinaStory/chinaStorytoryResults"
+                "action": "https://www.chinaso.com/newssearch/chinaStory/chinaStoryResults"
             }
         }
     },
