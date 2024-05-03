@@ -2,49 +2,38 @@
     "general": {
         "lstr": "通用搜索"
     },
+    "360so_csdn": {
+        "dname": "360 -csdn",
+        "addr": "https://www.so.com",
+        "action": "https://www.so.com/s",
+        "kw_key": "q",
+        "kw_format": "{0} -site:csdn.net"
+    },
     "f_google": {
         "fav": "google"
     },
     "f_baidu": {
         "fav": "baidu"
     },
-    "chinaso": {
-        "dname": "中国搜索",
-        "addr": "https://www.chinaso.com",
+    "f_chinaso": {
+        "fav": "chinaso"
+    },
+    "wuzhui": {
+        "dname": "无追搜索",
+        "addr": "https://www.wuzhuiso.com",
+        "action": "https://www.wuzhuiso.com/s",
         "kw_key": "q",
-        "btns": {
-            "all": {
-                "label": "新闻",
-                "action": "https://www.chinaso.com/newssearch/all/allResults"
-            },
-            "social": {
-                "label": "社科",
-                "action": "https://www.chinaso.com/newssearch/social/socialResults"
-            },
-            "image": {
-                "label": "图片",
-                "action": "https://www.chinaso.com/newssearch/image"
-            },
-            "video": {
-                "label": "视频",
-                "action": "https://www.chinaso.com/newssearch/video"
-            },
-            "story": {
-                "label": "好故事",
-                "action": "https://www.chinaso.com/newssearch/story/storyResults"
-            },
-            "china_story": {
-                "label": "China Story",
-                "action": "https://www.chinaso.com/newssearch/chinaStory/chinaStoryResults"
-            }
-        }
+        "kw_format": "{0} -site:csdn.net"
     },
     "video": {
         "lstr": "影音视听"
     },
     "imdb": {
         "dname": "IMDb",
-        "full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
+        "addr": "https://www.imdb.com",
+        "action": "https://www.imdb.com/find/",
+        "kw_key": "q",
+        "unknow_full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
     },
     "greatposterwall": {
         "dname": "GreatPosterWall",
@@ -53,11 +42,11 @@
     "knownledge": {
         "lstr": "知识问答"
     },
-    "f_pubmed":{
-        "fav":"pubmed"
+    "f_pubmed": {
+        "fav": "pubmed"
     },
-    "f_zhihu":{
-        "fav":"zhihu"
+    "f_zhihu": {
+        "fav": "zhihu"
     },
     "webofscience": {
         "dname": "Web of Science",
