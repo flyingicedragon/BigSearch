@@ -18,13 +18,6 @@
     "f_chinaso": {
         "fav": "chinaso"
     },
-    "wuzhui": {
-        "dname": "无追搜索",
-        "addr": "https://www.wuzhuiso.com",
-        "action": "https://www.wuzhuiso.com/s",
-        "kw_key": "q",
-        "kw_format": "{0} -site:csdn.net"
-    },
     "video": {
         "lstr": "影音视听"
     },
