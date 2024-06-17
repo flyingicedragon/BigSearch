@@ -2,11 +2,11 @@
     "general": {
         "lstr": "通用搜索"
     },
-    "360so_csdn": {
-        "dname": "360 -csdn",
-        "addr": "https://www.so.com",
-        "action": "https://www.so.com/s",
-        "kw_key": "q",
+    "sogou_csdn": {
+        "dname": "搜狗 -csdn",
+        "addr": "https://www.sogou.com",
+        "action": "https://www.sogou.com/web",
+        "kw_key": "query",
         "kw_format": "{0} -site:csdn.net"
     },
     "f_google": {
