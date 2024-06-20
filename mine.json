@@ -2,21 +2,41 @@
     "general": {
         "lstr": "通用搜索"
     },
-    "sogou_csdn": {
-        "dname": "搜狗 -csdn",
+    "sogou": {
+        "dname": "搜狗",
         "addr": "https://www.sogou.com",
-        "action": "https://www.sogou.com/web",
-        "kw_key": "query",
-        "kw_format": "{0} -site:csdn.net"
+        "btns": {
+            "sogou_csdn": {
+                "label": "搜狗 -csdn",
+                "action": "https://www.sogou.com/web",
+                "kw_key": "query",
+                "kw_format": "{0} -site:csdn.net"
+            },
+            "sogou": {
+                "label": "搜狗",
+                "use_other_engine": "sogou"
+            }
+        }
     },
     "f_google": {
         "fav": "google"
     },
-    "f_baidu": {
-        "fav": "baidu"
-    },
-    "f_chinaso": {
-        "fav": "chinaso"
+    "many_chinese": {
+        "dname": "中文齐搜",
+        "btns": {
+            "all": {
+                "label": "all",
+                "use_other_engine": ["baidu", "chinaso"]
+            },
+            "baidu": {
+                "label": "百度",
+                "use_other_engine": "baidu"
+            },
+            "chinaso": {
+                "label": "国搜",
+                "use_other_engine": "chinaso"
+            }
+        }
     },
     "video": {
         "lstr": "影音视听"
