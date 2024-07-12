@@ -26,7 +26,10 @@
         "btns": {
             "all": {
                 "label": "all",
-                "use_other_engine": ["baidu", "chinaso"]
+                "use_other_engine": [
+                    "baidu",
+                    "chinaso"
+                ]
             },
             "baidu": {
                 "label": "百度",
@@ -55,22 +58,52 @@
     "knownledge": {
         "lstr": "知识问答"
     },
-    "f_pubmed": {
-        "fav": "pubmed"
+    "acadamic": {
+        "dname": "学术文献",
+        "btns": {
+            "pubmed": {
+                "label": "PubMed",
+                "use_other_engine": "pubmed"
+            },
+            "google": {
+                "label": "Google",
+                "use_other_engine": "google_scholar"
+            },
+            "bing": {
+                "label": "Bing",
+                "use_other_engine": "bing_ac"
+            },
+            "baidu": {
+                "label": "Baidu",
+                "use_other_engine": {
+                    "engine": "baidu_xuesu",
+                    "btn": "journal"
+                }
+            }
+        }
     },
     "f_zhihu": {
         "fav": "zhihu"
     },
-    "webofscience": {
-        "dname": "Web of Science",
-        "addr": "https://webofscience.clarivate.cn",
-        "action": "https://webofscience.clarivate.cn/wos/alldb/advanced-search",
-        "ajax": [
-            2000,
-            "#advancedSearchInputArea"
-        ]
-    },
-    "f_github": {
-        "fav": "github"
+    "programming": {
+        "dname": "编程资料",
+        "btns": {
+            "github": {
+                "label": "Github",
+                "use_other_engine": "github"
+            },
+            "pypi": {
+                "label": "PyPI",
+                "use_other_engine": {
+                    "engine": "python",
+                    "btn": "PyPI"
+                }
+            },
+            "crates": {
+                "label": "Rust Crates",
+                "action": "https://crates.io/search",
+                "kw_key": "q"
+            }
+        }
     }
 }
