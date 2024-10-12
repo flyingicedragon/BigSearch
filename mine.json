@@ -22,13 +22,14 @@
         "fav": "google"
     },
     "many_chinese": {
-        "dname": "中文齐搜",
+        "dname": "齐搜",
         "btns": {
             "all": {
                 "label": "all",
                 "use_other_engine": [
                     "baidu",
-                    "chinaso"
+                    "chinaso",
+                    "yandex"
                 ]
             },
             "baidu": {
@@ -38,6 +39,10 @@
             "chinaso": {
                 "label": "国搜",
                 "use_other_engine": "chinaso"
+            },
+            "yandex": {
+                "label": "Yandex",
+                "use_other_engine": "yandex"
             }
         }
     },
