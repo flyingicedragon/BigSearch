@@ -104,8 +104,13 @@
                     "btn": "PyPI"
                 }
             },
+            "doc": {
+                "label": "std doc",
+                "action": "https://doc.rust-lang.org/std/index.html",
+                "kw_key": "search"
+            },
             "crates": {
-                "label": "Rust Crates",
+                "label": "crates.io",
                 "action": "https://crates.io/search",
                 "kw_key": "q"
             }
