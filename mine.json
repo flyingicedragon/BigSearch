@@ -99,10 +99,8 @@
             },
             "pypi": {
                 "label": "PyPI",
-                "use_other_engine": {
-                    "engine": "python",
-                    "btn": "PyPI"
-                }
+                "action": "https://pypi.org/search/",
+                "kw_key": "q"
             },
             "doc": {
                 "label": "std doc",
