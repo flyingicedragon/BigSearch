@@ -2,19 +2,32 @@
     "general": {
         "lstr": "通用搜索"
     },
-    "sogou": {
-        "dname": "搜狗",
-        "addr": "https://www.sogou.com",
+    "common": {
+        "dname": "常用",
         "btns": {
-            "sogou_csdn": {
-                "label": "搜狗 -csdn",
-                "action": "https://www.sogou.com/web",
-                "kw_key": "query",
-                "kw_format": "{0} -site:csdn.net"
+            "all":{
+                "label":"all",
+                "use_other_engine":[
+                    "baidu",
+                    "sogou",
+                    "360"
+                ]
             },
             "sogou": {
                 "label": "搜狗",
                 "use_other_engine": "sogou"
+            },
+            "360so": {
+                "label": "360so",
+                "use_other_engine": "360so"
+            },
+            "baidu": {
+                "label": "百度",
+                "use_other_engine": "baidu"
+            },
+            "bing":{
+                "label": "Bing",
+                "use_other_engine":"bing"
             }
         }
     },
@@ -27,14 +40,9 @@
             "all": {
                 "label": "all",
                 "use_other_engine": [
-                    "baidu",
                     "chinaso",
                     "yandex"
                 ]
-            },
-            "baidu": {
-                "label": "百度",
-                "use_other_engine": "baidu"
             },
             "chinaso": {
                 "label": "国搜",
