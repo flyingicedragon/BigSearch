@@ -5,9 +5,9 @@
     "common": {
         "dname": "常用",
         "btns": {
-            "all":{
-                "label":"all",
-                "use_other_engine":[
+            "all": {
+                "label": "all",
+                "use_other_engine": [
                     "baidu",
                     "sogou",
                     "360"
@@ -25,9 +25,9 @@
                 "label": "百度",
                 "use_other_engine": "baidu"
             },
-            "bing":{
+            "bing": {
                 "label": "Bing",
-                "use_other_engine":"bing"
+                "use_other_engine": "bing"
             }
         }
     },
@@ -96,7 +96,11 @@
         }
     },
     "f_zhihu": {
-        "fav": "zhihu"
+        "dname": "知乎",
+        "use_other_engine": {
+            "engine": "zhihu",
+            "btn": "content"
+        }
     },
     "programming": {
         "dname": "编程资料",
@@ -104,6 +108,11 @@
             "github": {
                 "label": "Github",
                 "use_other_engine": "github"
+            },
+            "python-doc": {
+                "label": "Python docs",
+                "action": "https://docs.python.org/zh-cn/3.14/search.html",
+                "kw_key": "q"
             },
             "pypi": {
                 "label": "PyPI",
@@ -113,6 +122,11 @@
             "doc": {
                 "label": "std doc",
                 "action": "https://doc.rust-lang.org/std/index.html",
+                "kw_key": "search"
+            },
+            "doc-work": {
+                "label": "std doc work",
+                "action": "file:///home/icedragon/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/share/doc/rust/html/std/index.html",
                 "kw_key": "search"
             },
             "crates": {
