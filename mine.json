@@ -55,18 +55,24 @@
         }
     },
     "video": {
-        "lstr": "影音视听"
-    },
-    "imdb": {
-        "dname": "IMDb",
-        "addr": "https://www.imdb.com",
-        "action": "https://www.imdb.com/find/",
-        "kw_key": "q",
-        "unknow_full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
-    },
-    "greatposterwall": {
-        "dname": "GreatPosterWall",
-        "full_url": "https://greatposterwall.com/torrents.php?searchstr={0}"
+        "dname": "视频",
+        "btns": {
+            "imdb": {
+                "label": "IMDB",
+                "addr": "https://www.imdb.com",
+                "action": "https://www.imdb.com/find/",
+                "kw_key": "q",
+                "unknow_full_url": "https://www.imdb.com/find/?q={0}&ref_=nv_sr_sm"
+            },
+            "douban": {
+                "label": "豆瓣",
+                "use_other_engine": "douban"
+            },
+            "greatposterwall": {
+                "label": "GreatPosterWall",
+                "full_url": "https://greatposterwall.com/torrents.php?searchstr={0}"
+            }
+        }
     },
     "knownledge": {
         "lstr": "知识问答"
